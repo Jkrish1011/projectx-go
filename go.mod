@@ -2,7 +2,10 @@ module github.com/Jkrish1011/projectx-go
 
 go 1.24.0
 
-require go.mongodb.org/mongo-driver v1.17.3
+require (
+	github.com/google/uuid v1.6.0
+	go.mongodb.org/mongo-driver v1.17.3
+)
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
